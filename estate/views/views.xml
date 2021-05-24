@@ -19,7 +19,7 @@
 
     <record model="ir.actions.act_window" id="estate.action_window">
       <field name="name">estate window</field>
-      <field name="res_model">estate.estate</field>
+      <field name="res_model">estate.property</field>
       <field name="view_mode">tree,form</field>
     </record>
 
@@ -28,7 +28,7 @@
 
     <record model="ir.actions.server" id="estate.action_server">
       <field name="name">estate server</field>
-      <field name="model_id" ref="model_estate_estate"/>
+      <field name="model_id" ref="model_estate_property"/>
       <field name="state">code</field>
       <field name="code">
         action = {
