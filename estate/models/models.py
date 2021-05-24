@@ -4,8 +4,8 @@ from odoo import models, fields, api
 
 
 class estate(models.Model):
-     _name = 'estate.estate'
-     _description = 'estate.estate'
+     _name = 'estate.property'
+     _description = 'Estate property'
 
      name = fields.Char()
      value = fields.Integer()
